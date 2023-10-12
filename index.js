@@ -3,12 +3,12 @@ window.sr = ScrollReveal ();
     sr.reveal('.hero-principal', {
         duration: 3000,
         origin: 'left',
-        distance: '-100px'
+        distance: '50%' // Cambia el valor a un porcentaje
     });
     sr.reveal('.hero-inferior-imagen', {
         duration: 3000,
-        origin: 'bottom',
-        distance: '-100px'
+        origin: 'left',
+        distance: '50%' // Cambia el valor a un porcentaje
     });
     sr.reveal('.seccion-texto', {
         duration: 2000,
