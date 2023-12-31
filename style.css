@@ -5,6 +5,7 @@
   padding: 2rem;
   background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
   background-size: 16px 16px;
+  overflow-x: auto;
 }
 
 .navbar-collapse {
@@ -75,9 +76,11 @@ h1 {
 }
 .hero-principal {
   padding: 3rem;
+  overflow-x: auto;
 }
 .hero-inferior-imagen{
   width: 100%;
+  overflow-x: auto;
 }
 .hero-imagen-desarrollador {
   width: 200px;
@@ -85,10 +88,12 @@ h1 {
   margin:20px;
   object-fit: cover;
   border: 1px solid rgb(21, 1, 1);
+  overflow-x: auto;
 }
 .hero-principal h2 {
   font-size: 1.5rem;
   color: #615151;
+  overflow-x: auto;
 }
 /* Sobre mi */
 
@@ -356,6 +361,7 @@ footer {
   blink .5s infinite step-end alternate;
   overflow: hidden;
   text-align: center;
+  
  }
  
  
