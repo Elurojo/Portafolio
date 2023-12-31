@@ -73,6 +73,7 @@ h1 {
   min-height: 450px;
   text-align: center;
   overflow-x: auto;
+  overflow: hidden;
 }
 .hero-principal {
   padding: 3rem;
