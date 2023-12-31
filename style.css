@@ -1,5 +1,6 @@
 /* Barra de navegacion */
 
+
 .navbar {
   padding: 2rem;
   background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
@@ -70,6 +71,7 @@ h1 {
   background-size: 16px 16px;
   min-height: 450px;
   text-align: center;
+  overflow-x: auto;
 }
 .hero-principal {
   padding: 3rem;
