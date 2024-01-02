@@ -88,9 +88,47 @@ h1 {
   height: 200px;
   margin:20px;
   object-fit: cover;
-  border: 1px solid rgb(21, 1, 1);
+  border: 1px solid #FFFFFF;
   overflow-x: auto;
+  animation: flicker 4s linear infinite;
 }
+@keyframes flicker {
+  0% {
+  box-shadow: 
+  0 0 5px #E54D27,
+  0 0 10px #E54D27,
+  0 0 15px #E54D27,
+  0 0 20px #E54D27;
+  }
+  25% {
+  box-shadow: 
+  0 0 5px #264EE4,
+  0 0 10px #264EE4,
+  0 0 15px #264EE4,
+  0 0 20px #264EE4;
+  }
+  50% {
+  box-shadow: 
+  0 0 5px #F7DF1E,
+  0 0 10px #F7DF1E,
+  0 0 15px #F7DF1E,
+  0 0 20px #F7DF1E;
+  }
+  75% {
+  box-shadow: 
+  0 0 5px #00D9FF,
+  0 0 10px #00D9FF,
+  0 0 15px #00D9FF,
+  0 0 20px #00D9FF;
+  }
+  100% {
+  box-shadow: 
+  0 0 5px #E54D27,
+  0 0 10px #E54D27,
+  0 0 15px #E54D27,
+  0 0 20px #E54D27;
+  }
+ }
 .hero-principal h2 {
   font-size: 1.5rem;
   color: #615151;
